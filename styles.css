@@ -20,6 +20,8 @@ button {
 
 header {
     background-color: #e4e4e4;
+    position: sticky;
+    top: 0;
 }
 .wrapper_header {
     width: 95%;
@@ -121,11 +123,33 @@ nav li {
     transform: scale(1.05); /* Pequeña ampliación */
     transition: all 0.2s ease-in-out; /* Animación suave */
 }
-/* cambiar vertical */
+.container {
 
-
-
-
+    display: flex;
+  
+    justify-content: center; /* Centrar horizontalmente */
+  
+    align-items: center; /* Centrar verticalmente */
+  
+    height: 100vh; /* Hacer que ocupe toda la altura de la pantalla */
+  
+    background-color: #f4f4f4;
+  
+  }
+  
+  .card {
+  
+    background-color: white;
+  
+    padding: 20px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    border-radius: 8px;
+  
+    text-align: center;
+  
+  }
   
   .cookie-footer button:hover {
   
